@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- означает, что на маленьком экране будет адаптироваться, не будет менять масштаб -->
+    <meta name="keywords" content="photo, photograph, severodonetsk, lisichansk">
+    <meta name="description" content="Сайт фотографа Дмитрия Телушкина г.Лисичанск">
+    <title>фотограф Телушкин</title>
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+    <!-- маленькая иконка возле названия сайта -->
+    <link rel="stylesheet" type="text/css" href="main.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="wrap">
+            <div id="myNav" class="overlay">
+                <!-- кнопка меню закрытия -->
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <!-- меню -->
+                <div class="overlay-content">
+                    <a href="#">главная</a>
+                    <a href="#">портфолио</a>
+                    <a href="#">обо мне</a>
+                    <a href="#">контакты</a>
+                </div>
+            </div>
+            <div onclick="openNav()" class="navMenu">&#9776;</div>
+
+            <div class="menu">
+                <div class="logo">
+                    <a href="/" title="На главную"><img src="img/logo.png" title="PhotoTelushkin" alt="PhotoTelushkin" /></a>
+                </div>
+                
+            </div>
+        </div>
+    </header>
+
+    <main>
+            <div class="wrap">
+                <div>
+                    <p class="css-typing">Привет! Меня зовут Дмирий, я профессиональный фотограф, я с радостью запечатлю самые важные моменты в вашей жизни. Оставляйте заявку и я Вам перезвоню.</p>
+                </div>
+            </div>
+                    <div class="wrap">
+            <div class="portfolio">
+                    <a href="#">главная</a>
+                    <a href="#">портрет</a>
+                    <a href="#">свадьба/love story</a>
+                    <a href="#">дети</a>
+                    <a href="#">школы</a>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <img src="img/wedding1.jpg">
+                    <img src="img/portrait.jpg">
+                    <img src="img/school.jpeg">
+                    <img src="img/child.jpg">
+                    <img src="img/children.jpg">
+                    <img src="img/wedding2.jpg">
+                    <img src="img/wedding3.jpg">
+                    
+                </div>                  
+                <div class="column">
+                    <img src="img/child.jpg">
+                    <img src="img/children.jpg">
+                    
+                    <img src="img/wedding3.jpg">
+                    <img src="img/wedding4.jpg">
+                    <img src="img/wedding1.jpg">
+                    <img src="img/portrait.jpg">
+                    <img src="img/school.jpeg">
+                </div>
+                <div class="column">
+                    <img src="img/wedding1.jpg">
+                    <img src="img/portrait.jpg">
+                    <img src="img/shcool.jpeg">
+                    <img src="img/child.jpg">
+                    <img src="img/children.jpg">
+                    <img src="img/wedding2.jpg">
+                    
+                    <img src="img/wedding4.jpg">
+                </div>
+                
+
+            </div>
+
+        </div>
+
+    </main>
+    <footer>
+        <div class="wrap">
+            <div class="section" id="social">
+                <a href="#"><img src="img/2facebook.png" class="icon" alt="facebook" title="facebook" /></a>
+                <a href="#"><img src="img/2telegram.png" class="icon" alt="telegram" title="telegram" /></a>
+                <a href="#"><img src="img/2vk.png" class="icon" alt="vk" title="vk" /></a>
+                <a href="#"><img src="img/2instagram.png" class="icon" alt="instagram" title="instagram" /></a>
+                <a href="#"><img src="img/2viber.png" class="icon" alt="viber" title="viber" /></a>
+            </div>
+            <div class="section">
+                &copy; Copyright 2020
+            </div>
+            <div class="section" id="adress">
+                <ul>
+                    <li> г.Лисичанск </li>
+                    <li> 050 080 27 38 </li>
+                    <li><a href="#">dvtelushkin@gmail.com</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </footer>
+    <script type="text/javascript">
+        function openNav() {
+            document.getElementById("myNav").style.height = "100%";
+        }
+
+        function closeNav() {
+            document.getElementById("myNav").style.height = "0%";
+        }
+    </script>
+
+</body>
+
+</html>
